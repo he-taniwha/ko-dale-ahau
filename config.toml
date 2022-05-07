@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-uk"
+title = "Ko Dale ahau"
+theme = "hugo-scroll"
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+[params]
+    description = "Taku hangarau matihiko kohinga toi whaiaro - _my digital technology (art) portfolio_"
+
+    favicon = "images/favicon.png"
+
+[params.meta]
+    keywords = "Dale Hills, he-taniwha, Maori, Aotearoa New Zealand, Aotearoa, Infrastructure, Cloud, Systems, Administrator, Engineer, DevOps, Containers, Automation, Site Reliability Engineering, Tinkerer"
