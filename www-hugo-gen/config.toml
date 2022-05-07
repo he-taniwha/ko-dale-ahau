@@ -1,0 +1,74 @@
+baseURL = "/"
+
+# Disable these webpages
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+defaultContentLanguage = "en"
+
+# The name of theme
+theme = "hugo-scroll"
+
+# The "title" of your website
+title = "Ko Dale ahau"
+
+[params]
+    # A "copyright"-line to be added at the bottom of the page.
+    # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+    copyright = "© Dale Hills"
+
+    # The "description" of your website. This is used in the meta data of your generated html.
+    description = "Taku hangarau matihiko kohinga toi whaiaro - _my digital technology (art) portfolio_"
+
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    favicon = "images/favicon.png"
+
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # See https://gohugo.io/templates/internal#twitter-cards and
+    # https://gohugo.io/templates/internal#open-graph.
+    images = ["images/cover-image.jpg"]
+
+    # Another "title" :-). This one is used as the site_name on the Hugo's internal
+    # opengraph structured data template.
+    # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+    title = "Jane Doe - Nutrition Coach & Chef Consultant"
+
+    # This theme will, by default, inject a design-by-line at the bottom of the page.
+    # You can turn it off, but we would really appreciate if you don’t :-)
+    # hidedesignbyline = true
+
+    # if you set this to 0, only submenu trigger will be visible
+    #showMenuItems = 2
+
+    # show selector to switch language
+    showLanguageSelector = false
+
+    # set theme to full screen width
+    fullWidthTheme = false
+
+    # center theme with default width
+    centerTheme = false
+
+    # set a custom favicon (default is a `themeColor` square)
+    # favicon = "favicon.ico"
+
+    # set post to show the last updated
+    # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+    showLastUpdated = false
+    # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+    # updatedDatePrefix = "Updated"
+
+    # set all headings to their default size (depending on browser settings)
+    # it's set to `true` by default
+    # oneHeadingSize = false
+
+[params.twitter]
+    # set Twitter handles for Twitter cards
+    # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+    # do not include @
+    creator = ""
+    site = ""
+
+
+[params.meta]
+    keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
