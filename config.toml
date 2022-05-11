@@ -9,5 +9,11 @@ disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
     favicon = "images/favicon.png"
 
+    showLanguageSelector = false
+    fullWidthTheme = false
+    centerTheme = false
+    showLastUpdated = false
+    hidedesignbyline = true
+
 [params.meta]
     keywords = "Dale Hills, he-taniwha, Maori, Aotearoa New Zealand, Aotearoa, Infrastructure, Cloud, Systems, Administrator, Engineer, DevOps, Containers, Automation, Site Reliability Engineering, Tinkerer"
