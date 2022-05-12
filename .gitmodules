@@ -1,3 +1,3 @@
 [submodule "themes/hugo-scroll"]
 	path = themes/hugo-scroll
-	url = https://he-taniwha/hugo-scroll.git
+	url = git@github.com:he-taniwha/hugo-scroll.git
