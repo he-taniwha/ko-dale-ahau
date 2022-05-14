@@ -18,6 +18,16 @@ disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
     showLastUpdated = false
     hidedesignbyline = true
 
+    # dir name of your main content (default is `content/posts`).
+    # the list of set content will show up on your index page (baseurl).
+    contentTypeName = "homepage"
+
+    # ["orange", "blue", "red", "green", "pink"]
+    themeColor = "orange"
+
+    # if you set this to 0, only submenu trigger will be visible
+    showMenuItems = 2
+
 [params.meta]
     keywords = "Dale Hills, he-taniwha, Maori, Aotearoa New Zealand, Aotearoa, Infrastructure, Cloud, Systems, Administrator, Engineer, DevOps, Containers, Automation, Site Reliability Engineering, Tinkerer"
 
