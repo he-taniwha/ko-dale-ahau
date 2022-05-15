@@ -5,15 +5,20 @@ on:
     branches:
       - main  # Set a branch to deploy
   pull_request:
+    branches:
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -29,7 +34,8 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3.8.0
-        if: github.ref == 'refs/heads/main'
+        #if: github.ref == 'refs/heads/main'
+        if: github.event_name == 'push'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
