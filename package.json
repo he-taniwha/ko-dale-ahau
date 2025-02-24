@@ -23,7 +23,7 @@
     },
     "homepage": "https://ko-dale-ahau.pages.dev/",
     "devDependencies": {
-      "prettier": "^2.6.1",
+      "prettier": "^3.5.2",
       "prettier-plugin-go-template": "0.0.11"
     }
   }
